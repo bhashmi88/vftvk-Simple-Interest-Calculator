@@ -19,7 +19,7 @@ function compute()
     
     var r=document.getElementById("rate").value;
     var t=document.getElementById("years").value;
-    var amount= p*(1+r*t/100);
+    var amount= p*r*t/100;
     var year = new Date().getFullYear()
     var futureYear=parseFloat(year)+parseFloat(t);
 
